@@ -30,7 +30,8 @@ class _CurrencyConverter1State extends State<CurrencyConverter1> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center, // vertically
             children: [
-              Text(result.toString(),
+              Text(
+                  "INR ${result != 0 ? result.toStringAsFixed(3) : result.toStringAsFixed(0)}",
                   style: const TextStyle(
                       fontSize: 55,
                       fontWeight: FontWeight.bold,
