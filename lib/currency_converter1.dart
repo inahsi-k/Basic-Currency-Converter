@@ -20,7 +20,7 @@ class _CurrencyConverter1State extends State<CurrencyConverter1> {
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: const Text(
-            "Currency converter",
+            "Currency Converter",
             style: TextStyle(color: Colors.white),
           ),
         ),
